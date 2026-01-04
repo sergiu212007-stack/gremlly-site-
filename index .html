@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREMLY | GRML</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0B0B0B;
+            color: #FFFFFF;
+            line-height: 1.6;
+        }
+        header {
+            background: #1A1A1A;
+            padding: 15px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav a {
+            color: #6CFF4F;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #92FF79;
+        }
+        .hero {
+            height: 300px;
+            /* Replaced image background with a dark gradient to avoid missing file */
+            background: linear-gradient(135deg, #0B0B0B 0%, #1A1A1A 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            color: #6CFF4F;
+            text-shadow: 0 0 10px rgba(108, 255, 79, 0.7);
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section h2 {
+            color: #6CFF4F;
+            margin-bottom: 10px;
+        }
+        section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        section ul li::before {
+            content: "\2022";
+            color: #6CFF4F;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        footer {
+            background: #1A1A1A;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #6CFF4F;
+            color: #0B0B0B;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .button:hover {
+            background: #92FF79;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">О токене</a>
+            <a href="#tokenomics">Токеномика</a>
+            <a href="#community">Сообщество</a>
+            <a href="#buy">Купить</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>GREMLY | GRML</h1>
+    </div>
+    <section id="about">
+        <h2>О GREMLY</h2>
+        <p>
+            GREMLY — это мемный токен в экосистеме TON. Никакой roadmap'ы, никаких обещаний — только мем и сообщество. Этот токен создан
+            для тех, кто предпочитает лёгкий хаос и юмор без пафоса. GREMLY — персонаж-мем: милый, слегка хитрый, всегда наблюдающий за рынком.
+        </p>
+    </section>
+    <section id="tokenomics">
+        <h2>Токеномика</h2>
+        <ul>
+            <li>Общее предложение: 1 000 000 000 GRML</li>
+            <li>Комиссия на покупки/продажи: 0%</li>
+            <li>Дополнительного выпуска токенов: нет</li>
+            <li>Сжигание токенов: нет</li>
+            <li>Контракт renounced: да</li>
+        </ul>
+    </section>
+    <section id="community">
+        <h2>Сообщество</h2>
+        <p>
+            GREMLY строится на органичном росте и реальных людях. Присоединяйтесь к нашему сообществу в Telegram и следите за новостями в Twitter.
+            Мы проводим опросы, розыгрыши, обсуждения и делимся новыми мемами.
+        </p>
+        <ul>
+            <li><a href="https://t.me/labubutonteam" target="_blank" style="color: #6CFF4F; text-decoration: underline;">Группа в Telegram</a></li>
+            <li><a href="https://x.com/the_spark_token?s=21" target="_blank" style="color: #6CFF4F; text-decoration: underline;">Twitter / X</a></li>
+            <li><a href="https://t.me/+UokDQytk_3FmNGQy" target="_blank" style="color: #6CFF4F; text-decoration: underline;">Чат сообщества</a></li>
+        </ul>
+    </section>
+    <section id="buy">
+        <h2>Как купить</h2>
+        <p>
+            Вы можете приобрести GRML через официальный лаунчпад MemPad на платформе Blum. Нажмите на кнопку ниже, чтобы перейти к покупке.
+        </p>
+        <a class="button" href="https://t.me/blum/app?startapp=memepadjetton_GRML_wxwGB-ref_UE2KSkydUa" target="_blank">Купить GRML</a>
+    </section>
+    <footer>
+        <p>© 2026 GREMLY. Все права защищены.</p>
+        <p><small>Это простой сайт для демонстрационных целей. Сайт не является финансовым советом.</small></p>
+    </footer>
+</body>
+</html>
